@@ -330,13 +330,10 @@ hf jobs cancel <job-id>           # Cancel a job
 The `trl-jobs` package provides optimized defaults and one-liner training.
 
 ```bash
-# Install
-uv tool install trl-jobs
-
-# Train with SFT (simplest possible)
-trl-jobs sft \
+uvx trl-jobs sft \
   --model_name Qwen/Qwen2.5-0.5B \
   --dataset_name trl-lib/Capybara
+
 ```
 
 **Benefits:** Pre-configured settings, automatic Trackio integration, automatic Hub push, one-line commands
