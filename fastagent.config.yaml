@@ -1,0 +1,6 @@
+default_model: haiku
+
+logger:
+  progress_display: false
+  show_chat: false
+  streaming: markdown
